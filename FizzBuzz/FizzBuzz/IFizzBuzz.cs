@@ -13,6 +13,10 @@ namespace FizzBuzz
         /// </summary>
         /// <param name="number">current number in the game sequence</param>
         /// <returns>appropriate answer to the current number</returns>
+        // If the number is divisable by 3 print "Fizz"
+        // If the number is divisable by 5 print "Buzz"
+        // If the number is divisable by 3 and 5 print "FizzBuzz"
+        // Otherwise print the number
         string Answer(int number);
     }
 }
